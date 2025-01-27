@@ -1,0 +1,12 @@
+[package]
+name = "composable"
+version = "0.9.0"
+description = "Easy composition of functional traits, functions or closures"
+edition = "2021"
+authors = ["Frédérik Bilhaut <frederik.bilhaut@gmail.com>"]
+license = "Apache-2.0"
+readme = "./Readme.md"
+keywords = ["composition", "functional-traits"]
+homepage = "https://github.com/fbilhaut/composable"
+repository = "https://github.com/fbilhaut/composable"
+documentation = "https://docs.rs/composable/"
