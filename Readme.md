@@ -46,7 +46,7 @@ let composition = composed![
     |x: usize| Ok(x * x),
     Print::new()
     // ...
-]
+];
 
 let x = composition.apply(42)?;
 ```
