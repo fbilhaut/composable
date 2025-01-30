@@ -16,6 +16,11 @@ Two or more traits and/or functions can be composed through different means:
 
 This crate is mostly useful for composing structures with a state and a possibly complex behavior, while providing a functional-style interface. However, the following examples are intentionally kept simplistic to illustrate its core operating principle.
 
+```cargo
+[dependencies]
+composable = "0.9.0"
+```
+
 ```rust
 use composable::*;
 
