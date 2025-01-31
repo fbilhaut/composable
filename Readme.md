@@ -16,7 +16,7 @@ Two or more traits and/or functions can be composed through different means:
 
 This crate is mostly useful for composing structures with a state and a possibly complex behavior, while providing a functional-style interface. However, the following examples are intentionally kept simplistic to illustrate its core operating principle.
 
-```cargo
+```toml
 [dependencies]
 composable = "0.9.0"
 ```
@@ -91,4 +91,5 @@ The symmetric operation is provided by `compose_rt()` and `composed_rt!`.
 
 ## 👉 Related
 
-This crate was originally created as a sub-module of [🌿 gline-rs](https://github.com/fbilhaut/gline-rs), and has been externalized for use in other projects.
+* This crate was originally created as a sub-module of [🌿 gline-rs](https://github.com/fbilhaut/gline-rs), and has been externalized for use in other projects.
+* It provides foundations for the [🧩 orp](https://github.com/fbilhaut/orp) crate.
